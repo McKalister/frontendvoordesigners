@@ -1,9 +1,36 @@
+<!DOCTYPE html> 
 <html>
-  <head></head>
+  <head>
+    <!-- Content Type Meta tag -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Movies</title>
+    <meta name="description" content="Opdracht 1">
+    <meta name="author" content="Kayleigh Jonker">
+            
+    <!--Responsive Viewport Meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Roboto font embed -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/stylesheet.css" rel="stylesheet" type="text/css">
+  </head>
+
   <body>
-    <h1>Opdracht 1 - versie 2</h1>
-    <p>
-      Hier komt de HTML van de interactieve demo te staan voor de tweede versie van de eerste opdracht.
-    </p>
+    <div class="container">
+      <!-- Watched movies -->
+      <h1>Watchlist</h1>
+      <ul class="movies" id="watchList"></ul>
+
+      <!-- Unwatched movies -->
+      <h1>Alle films</h1>
+      <ul class="movies" id="allMovies"></ul>
+    </div>
+
+    <!-- JavaScripts load at the bottom for improved loading times -->
+    <script src="resources/javascript/main.js"></script>
   </body>
 </html>

@@ -99,73 +99,83 @@ header button svg .fill {
 }
 
 .container {
-  width: 100%;
-  float: left;
-  padding: 15px;
+/*	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;*/
 }
 
 ul.todo {
-  width: 100%;
-  float: left;
+	width: 1024px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	padding: 1em;
+	margin: 1em auto;
+}
+
+ul.todo::after {
+	content: "";
+	flex: auto;
 }
 
 ul.todo li {
-  width: 100%;
-  min-height: 50px;
-  float: left;
-  font-size: 14px;
-  font-weight: 500;
-  color: #444;
-  line-height: 22px;
+	width: 20%;
+	padding: 0.5em;
+    box-sizing: border-box;
+	min-height: 50px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #444;
+	line-height: 22px;
 
-  background: #fff;
-  border-radius: 5px;
-  position: relative;
-  box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
-  margin: 0 0 10px 0;
-  padding: 14px 100px 14px 14px;
-  word-break: break-word;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0px 1px 2px rgba(44, 62, 80, 0.10);
+	margin: 0 10px 10px 0;
+	padding: 14px 100px 14px 14px;
+	word-break: break-word;
 }
 
-ul.todo li:last-of-type {
-  margin: 0;
-}
+/*ul.todo li:last-of-type {
+	margin: 0;
+}*/
 
 ul.todo li .buttons {
-  width: 100px;
-  height: 50px;
+	width: 100px;
+	height: 50px;
 
-  position: absolute;
-  top: 0;
-  right: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 ul.todo li .buttons button {
-  width: 50px;
-  height: 50px;
-  float: left;
-  background: none;
-  position: relative;
-  border: 0px;
-  box-shadow: none;
-  outline: none;
-  cursor: pointer;
+	width: 50px;
+	height: 50px;
+	float: left;
+	background: none;
+	position: relative;
+	border: 0px;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
 
-  -webkit-appearance: none;
-  -moz-appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 
 /*Divider*/
 ul.todo li .buttons button:last-of-type:before {
-  content: '';
-  width: 1px;
-  height: 30px;
-  background: #edf0f1;
+	content: '';
+	width: 1px;
+	height: 30px;
+	background: #edf0f1;
 
-  position: absolute;
-  top: 10px;
-  left: 0;
+	position: absolute;
+	top: 10px;
+	left: 0;
 }
 
 ul.todo li .buttons button svg {
