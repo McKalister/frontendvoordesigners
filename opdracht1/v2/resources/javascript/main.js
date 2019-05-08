@@ -23,7 +23,7 @@ function loadMovies() {
  * instead of the actual object. 
  */
 function loadWatchList() {
-	return watchList = (localStorage.getItem('watchList')) ? JSON.parse(localStorage.getItem('watchList')) : [];
+	return (localStorage.getItem('watchList')) ? JSON.parse(localStorage.getItem('watchList')) : [];
 }
 
 /**

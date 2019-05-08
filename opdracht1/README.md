@@ -9,3 +9,5 @@ Hierna probeerde ik deze checklist om te zetten naar de movielist. Dit was toch 
 Ik ben wel tegen wat dingentjes aangelopen, maar de meeste dingen kon ik wel fixen en kwamen door kleine typfoutjes of een stukje code dat miste. Het enige waar ik nu  voornamelijk nog mee zit is dat de laatste regels van mijn Movie List niet in het grid valt met de rest. 
 
 Dit probeer ik nog voor elkaar te krijgen in de volgende versie. 
+
+De enige manier die werkte was flex-start te gebruiken. Dit zorgt er wel voor dat alles niet perfect in het midden zit. Wel valt het nu mooier wanneer er een ongelijk aantal items in het grid zitten. Omdat er niet altijd even veel items in een rij leeg zijn kon ik ook niet gebruik maken van "ghost-divs"; divs met dezelfde height en width maar dan hidden, die de lege plekken vullen. 
