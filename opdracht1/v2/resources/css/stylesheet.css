@@ -87,7 +87,7 @@ h1 {
 }
 
 #watchList:empty:after {
-	content: 'You have not add any items to your watchlist yet!';
+	content: 'You have not added any items to your watchlist yet!';
 	margin: 15px 0px 0px 10px;
 } 
 
