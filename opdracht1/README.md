@@ -13,3 +13,8 @@ Dit probeer ik nog voor elkaar te krijgen in de volgende versie.
 De enige manier die werkte was flex-start te gebruiken. Dit zorgt er wel voor dat alles niet perfect in het midden zit. Wel valt het nu mooier wanneer er een ongelijk aantal items in het grid zitten. Omdat er niet altijd even veel items in een rij leeg zijn kon ik ook niet gebruik maken van "ghost-divs"; divs met dezelfde height en width maar dan hidden, die de lege plekken vullen. 
 
 Ook heb ik besloten een blank state toe te voegen wanneer er geen items in de watchlist staan. 
+
+[Link naar demo:](https://oege.ie.hva.nl/~jonkerk001/FvD/)
+
+[Link naar code:](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht1/v2)
+ 
