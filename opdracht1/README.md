@@ -1,11 +1,11 @@
 # frontend voor designers - opdracht 1
-Hier beschrijf je de opdracht, wat je hebt gemaakt en hoe je je ontwerp door verschillende versies te testen hebt verbeterd. Bij iedere test voeg je een link toe naar de betreffende demo.
 
-Bijvoorbeel bij de demo van versie in kun je zo een link maken, zodat iedereen de demo zelf kan uitproberen:
+*Voor de eerste opdracht van Frontend voor Designers heb ik gekozen voor de "Als ik een lijst films heb gevonden, wil ik leuke films kunnen opslaan om ze thuis te ...." opdracht. Later heb ik hier ook een detail overzicht bij gedaan zoals de bedoeling was bij de tweede keuze, "In een lijst gevonden studentenhuizen wil ik details kunnen bekijken om te bepalen of de kamer geschikt is.".* 
 
-[Demo 1 voor opdracht 1](https://koopreynders.github.io/frontendvoordesigners/opdracht1/v1/)
+Ik koos voor de "simpelere" opdracht, omdat ik een lange tijd niet veel met coderen heb gedaan en weer alles een beetje op moet halen. Ik ben begonnen een tutorial te volgen voor het maken van een checklist. Dit deed ik omdat deze checklist vele elementen bevatten die ik kon gebruiken voor mijn Movie List. 
 
+Hierna probeerde ik deze checklist om te zetten naar de movielist. Dit was toch wat verwarrend voor mij en daarom besloten van scratch te beginnen en langzaam de belangrijke elementen erin te stoppen. Dit deed ik zodat de code voor mij overzichtelijker bleef en ik wist welk stukje code wat precies deed. 
 
-Je kan ook een link plaatsen naar de bron code van de demo:
+Ik ben wel tegen wat dingentjes aangelopen, maar de meeste dingen kon ik wel fixen en kwamen door kleine typfoutjes of een stukje code dat miste. Het enige waar ik nu  voornamelijk nog mee zit is dat de laatste regels van mijn Movie List niet in het grid valt met de rest. 
 
-[Code demo 1 voor opdracht 1](https://github.com/KoopReynders/frontendvoordesigners/blob/master/opdracht1/v1/)
+Dit probeer ik nog voor elkaar te krijgen in de volgende versie. 
