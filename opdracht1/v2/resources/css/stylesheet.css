@@ -37,7 +37,8 @@ h1 {
 }
 
 .movie {
-	flex-basis: 200px;
+	/* flex-basis: 200px; */
+	min-width: 200px;
 	height: 300px;
 	margin: 10px;
 	overflow: hidden;
@@ -45,6 +46,7 @@ h1 {
 	position: relative;
 	background-position: center;
 	background-size: cover;
+	flex-grow: 1;
 }
 
 .banner {

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html, body {
+	font-family: 'Avenir', sans-serif;
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+}
+
+.movie-container {
+	background: #FD9999;
+	width: 100%;
+	display: flex;
+}
+
+#main-image {
+	flex-shrink: 0;
+	width: 450px;
+	border-radius: 0 1000px 1000px 0;
+	overflow: hidden;
+	background-position: center;
+}
+
+.info-container {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+}
+
+.info-wrapper {
+	font-size: 18px;
+	margin-top: 50px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: row;
+}
+
+.metadata {
+	width: 400px;
+	margin-right: 50px;
+}
+
+.metadata li {
+	margin-bottom: 10px;
+}
+
+.navigation-wrapper {
+	display: flex;
+	font-size: 15px;
+	height: 150px;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation-wrapper h2 {
+	text-decoration: underline;
+}
+
+.navigation-wrapper a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 35px;
+}
+
+.up-arrow {
+	transform: rotate(90deg);
+}
+
+.watchListButton {
+	width: 22px;
+	height: 25px;
+	top: 1em;
+	right: 1em;
+	background: none;
+	border: 0px;
+	color: #ffffff;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.watchListButton svg .fill {
+	fill: #ffffff;
+}
+
+.watchListButton.onWatchlist svg .fill {
+	fill: #D75A4A;
+}
