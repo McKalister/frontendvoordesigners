@@ -1,4 +1,3 @@
-
 # frontend voor designers - opdracht 2
 
 *Voor de tweede opdracht voor Frontend voor Designers heb ik gekozen voor de portfolio opdracht. In plaatst van een portfolio wil ik de lijst met films gebruiken van opdracht 1.* 
@@ -22,4 +21,3 @@ De afbeelding heb ik rechthoekig gemaakt, omdat er anders te veel *witruimte* wa
 [Link naar demo](https://oege.ie.hva.nl/~jonkerk001/FvD/opdracht2)
 
 [Link naar code](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht2/v2)
- 
