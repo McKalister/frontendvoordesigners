@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+html, body {
+	font-family: 'Avenir', sans-serif;
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1080px;
+}
+
+.movie-container {
+	background: #404040;
+	width: 100%;
+	display: flex;
+}
+
+.details-container, .navigation-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.details-container {
+	padding-right: 50px;
+}
+
+.navigation-container {
+	flex-direction: row;
+}
+
+.content-container {
+	flex-grow: 1;
+	display: flex;
+	margin-top: 20px;
+	flex-direction: row;
+}
+
+.header-container {
+	display: flex;
+	align-items: flex-end;
+	height: 30%;
+}
+
+.offset {
+	width: 250px;
+	max-width: 250px;
+}
+
+#main-image {
+	flex-shrink: 0;
+	max-width: 630px;
+	width: 630px;
+	background-position: center;
+	overflow: hidden;
+	background-position: center;
+}
+
+.info-container {
+	display: flex;
+	padding: 0 50px;
+	flex-grow: 1;
+}
+
+.info-wrapper {
+	font-size: 18px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.metadata {
+	width: 200px;
+	min-width: 200px;
+	padding: 0 25px;
+}
+
+.metadata li {
+	margin-bottom: 10px;
+}
+
+.navigation-wrapper {
+	height: 150px;
+	display: flex;
+	font-size: 14px;
+	height: 150px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation-wrapper h2 {
+	text-decoration: underline;
+	width: 150px;
+	font-weight: lighter;
+	text-align: left;
+}
+
+.navigation-wrapper .right, .navigation-wrapper .right h2 {
+	text-align: right;
+}
+
+.navigation-wrapper a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 35px;
+}
+
+.up button {
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+.up-arrow {
+	display: inline-block;
+    *display: inline; /* Used to get IE 6 & 7 to behave */
+    zoom: 1; /* Used to get IE 6 & 7 to behave */
+    -webkit-transform: rotate(90deg); 
+       -moz-transform: rotate(90deg); 
+        -ms-transform: rotate(90deg); 
+         -o-transform: rotate(90deg);  
+            transform: rotate(90deg);
+               filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0); 
+}
+
+#watchlist-counter {
+	background: #D75A4A;
+	position: absolute;
+	padding: 2px;
+	border-radius: 70px;
+	width: 22px;
+	height: 22px;
+	left: -8px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.watchlist-button {
+	width: 22px;
+	height: 25px;
+	top: 1em;
+	right: 1em;
+	background: none;
+	border: 0px;
+	color: #ffffff;
+	box-shadow: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.watchlist-button svg .fill {
+	fill: #ffffff;
+}
+
+.watchlist-button.on-watchlist svg .fill {
+	fill: #D75A4A;
+}
+
+.sidebar-toggle {
+	z-index: 1;
+	position: absolute;
+	cursor: pointer;
+	right: 20px;
+	top: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.sidebar-toggle svg .fill {
+	fill: #ffffff;
+}
+
+.sidebar-container {
+	cursor: pointer;
+	z-index: 2;
+	width: 400px;
+	position: fixed;
+	right: -400px;
+	height: 100%;
+	background: #fff;
+	color: #404040;
+	padding: 30px;
+	overflow-y: scroll;
+	transition: 1s;
+}
+
+.sidebar-container.open {
+	right: 0;
+	transition: 1s;
+}
+
+.sidebar-container .movie {
+	display: flex;
+}
+
+.sidebar-container .banner {
+	flex-shrink: 0;
+	width: 150px;
+    height: 221px;
+    border-radius: 10px;
+    background: center;
+    background-size: contain;
+    margin-bottom: 25px;
+}
+
+.sidebar-container h1 {
+	margin-bottom: 30px;
+}
+
+.sidebar-container h2 {
+	color: #FA6363;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.sidebar-container .meta {
+	padding-left: 10px;
+}
+
+.sidebar-container ul {
+	font-size: 20px;
+}
+
+.sidebar-container li {
+	margin-bottom: 5px;
+}

@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll; 
+  height: calc(100vh);
+}
+
+section {
+    padding: 0 10%;
+    height: calc(100vh);
+    scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+}
+
+section:nth-of-type(3){
+    background-color: #404040;
+}
+
+.letter {
+  display: inline-block;
+  font-weight: 900;
+  font-size: 8em;
+  margin: 0.2em;
+  position: relative;
+  color: #404040;
+  transform-style: preserve-3d;
+  perspective: 400;
+}
+
+.letter:before, .letter:after {
+  position:absolute;
+  content: attr(data-letter);
+  transform-origin: top left;
+  top:0;
+  left:0;
+}
+
+.letter, .letter:before, .letter:after {
+  transition: all 0.3s ease-in-out;
+}
+.letter:before {
+  color: #fff;
+  text-shadow: 
+    -1px 0px 1px rgba(255,255,255,.8),
+    1px 0px 1px rgba(0,0,0,.8);
+  z-index: 3;
+  transform:
+    rotateX(0deg)
+    rotateY(-15deg)
+    rotateZ(0deg);
+}
+.letter:after {
+  color: rgba(0,0,0,.11);
+  z-index:2;
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(0deg)
+    rotateZ(0deg)
+    skew(0deg,1deg);
+}
+.letter:hover:before {
+  color: #fafafa;
+  transform:
+    rotateX(0deg)
+    rotateY(-40deg)
+    rotateZ(0deg);
+}
+.letter:hover:after {
+  transform:
+    scale(1.08,1)
+    rotateX(0deg)
+    rotateY(40deg)
+    rotateZ(0deg)
+    skew(0deg,22deg);
+}
+
+.box {
+    width: 4em;
+    height: 4em;
+    background-color: #404040; 
+    position: relative;
+    display: inline-block;
+    animation-name: point;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes point {
+    0%{border-radius: 0 0 0 0;}
+    25%{border-radius: 50% 0 0 0;}
+    50%{border-radius: 50% 50% 0 0;}
+    75%{border-radius: 50% 50% 50% 0;}
+    100%{border-radius: 50% 50% 50% 50%;}
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: #404040;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .8s ease-in-out; 
+}
+
+img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+.eyes {
+    position: relative;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.eye {
+    width: 20%;
+    height: 15%;
+    background: #fff;
+    display: inline-block;
+    margin: 2em;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.eyeball {
+    width: 5em;
+    height: 5em;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: 0.6em solid #404040;
+}
