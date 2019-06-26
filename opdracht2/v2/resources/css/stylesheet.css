@@ -226,7 +226,7 @@ h1 {
 }
 
 .sidebar-container h2 {
-	color: #FA6363;
+	color: #fa6363;
 	margin-bottom: 10px;
 	font-size: 24px;
 }
@@ -241,4 +241,12 @@ h1 {
 
 .sidebar-container li {
 	margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+	.movie-container {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
 }
