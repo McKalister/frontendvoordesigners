@@ -15,7 +15,7 @@ De enige manier die werkte was flex-start te gebruiken. Dit zorgt er wel voor da
 Ook heb ik besloten een blank state toe te voegen wanneer er geen items in de watchlist staan. 
 
 
-[Link naar demo:](https://oege.ie.hva.nl/~jonkerk001/FvD/)
+[Link naar demo](https://oege.ie.hva.nl/~jonkerk001/FvD/)
 
-[Link naar code:](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht1/v2)
+[Link naar code](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht1/v2)
  
