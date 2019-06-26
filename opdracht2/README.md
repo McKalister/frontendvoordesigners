@@ -19,7 +19,7 @@ Om het design meer *unisex* te maken heb ik ervoor gekozen de achtergrond kleur 
 
 De afbeelding heb ik rechthoekig gemaakt, omdat er anders te veel *witruimte* was. Omdat de teksten niet erg lang waren was er al genoeg witruimte op de pagina. Ook heb ik de titel, tekst en meta data meer naar het midden van de pagina gebracht, zodat alles niet zover van elkaar af staat.
 
-[Link naar demo:](https://oege.ie.hva.nl/~jonkerk001/FvD/opdracht2)
+[Link naar demo](https://oege.ie.hva.nl/~jonkerk001/FvD/opdracht2)
 
-[Link naar code:](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht2/v1)
+[Link naar code](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht2/v2)
  

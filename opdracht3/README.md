@@ -1,17 +1,13 @@
 # frontend voor designers - opdracht 3
 
-Voor opdracht 3 ga je een functionaliteit ontwerpen met externe data, en testen. De data is JSON die met een REST API van een externe bron wordt ingeladen met Javascript. Als de data geladen is moeten gebruikers je ontwerp op verschillende manieren kunnen bedienen. Verschillende states zijn vormgeven en worden op het juiste moment getoond.
+Omdat ik bij opdracht 1 al zo goed als opdracht 3 had gemaakt, heb ik geprobeerd te spelen met css animaties en transities. 
 
-Dit is een voorbeeld van het laden van data en er html mee maken:
-[Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/XMLHttpRequest/)
+De site werkt responsive al zijn vele effecten toegepast met de hover state. Deze kan je dus niet zien op de mobiel. 
 
+Ik heb ook gebruik gemaakt van scroll snap waardoor je altijd naar de volgende pagina doorscrollt en niet halverwege. Dit zou ook handig kunnen zijn voor een portfolio en is ook horizontaal toepasbaar.
 
-## JSON
-JSON van de movies data staat ook hier:
-deze uri kun je gebruiken voor een van de use case voor opdracht 3.
-[https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json](https://koopreynders.github.io/frontendvoordesigners/opdracht3/json/movies.json)
+Voor de ogen die je muis volgen heb ik nog wel wat javascript moeten gebruiken. 
 
-De JSON data is ook los, per film of genre of actors te gebruiken. Check die [hier](https://github.com/KoopReynders/frontendvoordesigners/tree/master/opdracht3/json).
+[Link naar demo](https://oege.ie.hva.nl/~jonkerk001/FvD/opdracht3)
 
-Dit is een voorbeeld van het laden van de film data:
-[Code demo](https://koopreynders.github.io/frontendvoordesigners/opdracht3/v1/)
+[Link naar code](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht3/v1)
