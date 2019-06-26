@@ -21,5 +21,5 @@ De afbeelding heb ik rechthoekig gemaakt, omdat er anders te veel *witruimte* wa
 
 [Link naar demo](https://oege.ie.hva.nl/~jonkerk001/FvD/opdracht2)
 
-[Link naar code](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht2/v1)
+[Link naar code](https://github.com/McKalister/frontendvoordesigners/tree/master/opdracht2/v2)
  
